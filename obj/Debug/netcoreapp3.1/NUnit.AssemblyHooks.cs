@@ -9,13 +9,13 @@ using global::System.Runtime.CompilerServices;
 
 [GeneratedCode("SpecFlow", "3.9.22")]
 [SetUpFixture]
-public class SpecFlowProject1_NUnitAssemblyHooks
+public class BuggyCarsAutomation_NUnitAssemblyHooks
 {
     [OneTimeSetUp]
     [MethodImpl(MethodImplOptions.NoInlining)]
     public void AssemblyInitialize()
     {
-        var currentAssembly = typeof(SpecFlowProject1_NUnitAssemblyHooks).Assembly;
+        var currentAssembly = typeof(BuggyCarsAutomation_NUnitAssemblyHooks).Assembly;
 
         TestRunnerManager.OnTestRunStart(currentAssembly);
     }
@@ -24,7 +24,7 @@ public class SpecFlowProject1_NUnitAssemblyHooks
     [MethodImpl(MethodImplOptions.NoInlining)]
     public void AssemblyCleanup()
     {
-        var currentAssembly = typeof(SpecFlowProject1_NUnitAssemblyHooks).Assembly;
+        var currentAssembly = typeof(BuggyCarsAutomation_NUnitAssemblyHooks).Assembly;
 
         TestRunnerManager.OnTestRunEnd(currentAssembly);
     }
